@@ -1,0 +1,25 @@
+{
+  "name": "kodiak-container-tracking-ui",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/auth-api.test.js tests/employee-api.test.js tests/registration-api.test.js tests/session-restoration.test.js tests/business-category-api.test.js tests/consignee-api.test.js tests/shipper-api.test.js tests/location-master-api.test.js tests/container-api.test.js tests/container-tracking.test.js tests/tracking-directory.test.js tests/overview-api.test.js tests/company-profile-api.test.js tests/image-upload.test.js"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@fontsource-variable/manrope": "^5.3.0",
+    "flatpickr": "^4.6.13",
+    "lucide-vue-next": "^0.468.0",
+    "vue": "3.5.44",
+    "vue-advanced-cropper": "^2.8.9",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "6.4.3"
+  }
+}

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Kodiak-Setup</AssemblyName>
+    <Version>0.2.0</Version>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(PayloadPath)" LogicalName="Kodiak.Payload.zip" />
+  </ItemGroup>
+  <Target Name="RequirePayload" BeforeTargets="BeforeBuild">
+    <Error Condition="!Exists('$(PayloadPath)')" Text="Run installer/Build-Installer.ps1 to supply the deployment payload." />
+  </Target>
+</Project>

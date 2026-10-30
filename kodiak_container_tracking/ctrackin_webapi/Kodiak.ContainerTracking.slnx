@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Kodiak.ContainerTracking.Api/Kodiak.ContainerTracking.Api.csproj" />
+    <Project Path="src/Kodiak.ContainerTracking.Business/Kodiak.ContainerTracking.Business.csproj" />
+    <Project Path="src/Kodiak.ContainerTracking.DataAccess/Kodiak.ContainerTracking.DataAccess.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Kodiak.ContainerTracking.Tests/Kodiak.ContainerTracking.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+.vs/
+TestResults/
+.env
+appsettings.Local.json
+**/App_Data/Photos/
+**/App_Data/ContainerAttachments/

@@ -1,0 +1,464 @@
+[
+  {
+    "code": "AE-AJ",
+    "countryCode": "AE",
+    "name": "Ajman",
+    "type": "Emirate"
+  },
+  {
+    "code": "AE-AZ",
+    "countryCode": "AE",
+    "name": "Abu Dhabi",
+    "type": "Emirate"
+  },
+  {
+    "code": "AE-DU",
+    "countryCode": "AE",
+    "name": "Dubai",
+    "type": "Emirate"
+  },
+  {
+    "code": "AE-FU",
+    "countryCode": "AE",
+    "name": "Fujairah",
+    "type": "Emirate"
+  },
+  {
+    "code": "AE-RK",
+    "countryCode": "AE",
+    "name": "Ras Al Khaimah",
+    "type": "Emirate"
+  },
+  {
+    "code": "AE-SH",
+    "countryCode": "AE",
+    "name": "Sharjah",
+    "type": "Emirate"
+  },
+  {
+    "code": "AE-UQ",
+    "countryCode": "AE",
+    "name": "Umm Al Quwain",
+    "type": "Emirate"
+  },
+  {
+    "code": "CN-AH",
+    "countryCode": "CN",
+    "name": "Anhui Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-BJ",
+    "countryCode": "CN",
+    "name": "Beijing Shi",
+    "type": "Municipality"
+  },
+  {
+    "code": "CN-CQ",
+    "countryCode": "CN",
+    "name": "Chongqing Shi",
+    "type": "Municipality"
+  },
+  {
+    "code": "CN-FJ",
+    "countryCode": "CN",
+    "name": "Fujian Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-GD",
+    "countryCode": "CN",
+    "name": "Guangdong Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-GS",
+    "countryCode": "CN",
+    "name": "Gansu Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-GX",
+    "countryCode": "CN",
+    "name": "Guangxi Zhuangzu Zizhiqu",
+    "type": "Autonomous region"
+  },
+  {
+    "code": "CN-GZ",
+    "countryCode": "CN",
+    "name": "Guizhou Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-HA",
+    "countryCode": "CN",
+    "name": "Henan Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-HB",
+    "countryCode": "CN",
+    "name": "Hubei Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-HE",
+    "countryCode": "CN",
+    "name": "Hebei Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-HI",
+    "countryCode": "CN",
+    "name": "Hainan Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-HK",
+    "countryCode": "CN",
+    "name": "Hong Kong SAR",
+    "type": "Special administrative region"
+  },
+  {
+    "code": "CN-HL",
+    "countryCode": "CN",
+    "name": "Heilongjiang Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-HN",
+    "countryCode": "CN",
+    "name": "Hunan Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-JL",
+    "countryCode": "CN",
+    "name": "Jilin Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-JS",
+    "countryCode": "CN",
+    "name": "Jiangsu Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-JX",
+    "countryCode": "CN",
+    "name": "Jiangxi Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-LN",
+    "countryCode": "CN",
+    "name": "Liaoning Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-MO",
+    "countryCode": "CN",
+    "name": "Macao SAR",
+    "type": "Special administrative region"
+  },
+  {
+    "code": "CN-NM",
+    "countryCode": "CN",
+    "name": "Nei Mongol Zizhiqu",
+    "type": "Autonomous region"
+  },
+  {
+    "code": "CN-NX",
+    "countryCode": "CN",
+    "name": "Ningxia Huizu Zizhiqu",
+    "type": "Autonomous region"
+  },
+  {
+    "code": "CN-QH",
+    "countryCode": "CN",
+    "name": "Qinghai Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-SC",
+    "countryCode": "CN",
+    "name": "Sichuan Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-SD",
+    "countryCode": "CN",
+    "name": "Shandong Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-SH",
+    "countryCode": "CN",
+    "name": "Shanghai Shi",
+    "type": "Municipality"
+  },
+  {
+    "code": "CN-SN",
+    "countryCode": "CN",
+    "name": "Shaanxi Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-SX",
+    "countryCode": "CN",
+    "name": "Shanxi Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-TJ",
+    "countryCode": "CN",
+    "name": "Tianjin Shi",
+    "type": "Municipality"
+  },
+  {
+    "code": "CN-TW",
+    "countryCode": "CN",
+    "name": "Taiwan Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-XJ",
+    "countryCode": "CN",
+    "name": "Xinjiang Uygur Zizhiqu",
+    "type": "Autonomous region"
+  },
+  {
+    "code": "CN-XZ",
+    "countryCode": "CN",
+    "name": "Xizang Zizhiqu",
+    "type": "Autonomous region"
+  },
+  {
+    "code": "CN-YN",
+    "countryCode": "CN",
+    "name": "Yunnan Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "CN-ZJ",
+    "countryCode": "CN",
+    "name": "Zhejiang Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "IN-AN",
+    "countryCode": "IN",
+    "name": "Andaman and Nicobar Islands",
+    "type": "Union territory"
+  },
+  {
+    "code": "IN-AP",
+    "countryCode": "IN",
+    "name": "Andhra Pradesh",
+    "type": "State"
+  },
+  {
+    "code": "IN-AR",
+    "countryCode": "IN",
+    "name": "Arunachal Pradesh",
+    "type": "State"
+  },
+  {
+    "code": "IN-AS",
+    "countryCode": "IN",
+    "name": "Assam",
+    "type": "State"
+  },
+  {
+    "code": "IN-BR",
+    "countryCode": "IN",
+    "name": "Bihar",
+    "type": "State"
+  },
+  {
+    "code": "IN-CG",
+    "countryCode": "IN",
+    "name": "Chhattisgarh",
+    "type": "State"
+  },
+  {
+    "code": "IN-CH",
+    "countryCode": "IN",
+    "name": "Chandigarh",
+    "type": "Union territory"
+  },
+  {
+    "code": "IN-DH",
+    "countryCode": "IN",
+    "name": "Dadra and Nagar Haveli and Daman and Diu",
+    "type": "Union territory"
+  },
+  {
+    "code": "IN-DL",
+    "countryCode": "IN",
+    "name": "Delhi",
+    "type": "Union territory"
+  },
+  {
+    "code": "IN-GA",
+    "countryCode": "IN",
+    "name": "Goa",
+    "type": "State"
+  },
+  {
+    "code": "IN-GJ",
+    "countryCode": "IN",
+    "name": "Gujarat",
+    "type": "State"
+  },
+  {
+    "code": "IN-HP",
+    "countryCode": "IN",
+    "name": "Himachal Pradesh",
+    "type": "State"
+  },
+  {
+    "code": "IN-HR",
+    "countryCode": "IN",
+    "name": "Haryana",
+    "type": "State"
+  },
+  {
+    "code": "IN-JH",
+    "countryCode": "IN",
+    "name": "Jharkhand",
+    "type": "State"
+  },
+  {
+    "code": "IN-JK",
+    "countryCode": "IN",
+    "name": "Jammu and Kashmir",
+    "type": "Union territory"
+  },
+  {
+    "code": "IN-KA",
+    "countryCode": "IN",
+    "name": "Karnataka",
+    "type": "State"
+  },
+  {
+    "code": "IN-KL",
+    "countryCode": "IN",
+    "name": "Kerala",
+    "type": "State"
+  },
+  {
+    "code": "IN-LA",
+    "countryCode": "IN",
+    "name": "Ladakh",
+    "type": "Union territory"
+  },
+  {
+    "code": "IN-LD",
+    "countryCode": "IN",
+    "name": "Lakshadweep",
+    "type": "Union territory"
+  },
+  {
+    "code": "IN-MH",
+    "countryCode": "IN",
+    "name": "Maharashtra",
+    "type": "State"
+  },
+  {
+    "code": "IN-ML",
+    "countryCode": "IN",
+    "name": "Meghalaya",
+    "type": "State"
+  },
+  {
+    "code": "IN-MN",
+    "countryCode": "IN",
+    "name": "Manipur",
+    "type": "State"
+  },
+  {
+    "code": "IN-MP",
+    "countryCode": "IN",
+    "name": "Madhya Pradesh",
+    "type": "State"
+  },
+  {
+    "code": "IN-MZ",
+    "countryCode": "IN",
+    "name": "Mizoram",
+    "type": "State"
+  },
+  {
+    "code": "IN-NL",
+    "countryCode": "IN",
+    "name": "Nagaland",
+    "type": "State"
+  },
+  {
+    "code": "IN-OD",
+    "countryCode": "IN",
+    "name": "Odisha",
+    "type": "State"
+  },
+  {
+    "code": "IN-PB",
+    "countryCode": "IN",
+    "name": "Punjab",
+    "type": "State"
+  },
+  {
+    "code": "IN-PY",
+    "countryCode": "IN",
+    "name": "Puducherry",
+    "type": "Union territory"
+  },
+  {
+    "code": "IN-RJ",
+    "countryCode": "IN",
+    "name": "Rajasthan",
+    "type": "State"
+  },
+  {
+    "code": "IN-SK",
+    "countryCode": "IN",
+    "name": "Sikkim",
+    "type": "State"
+  },
+  {
+    "code": "IN-TN",
+    "countryCode": "IN",
+    "name": "Tamil Nadu",
+    "type": "State"
+  },
+  {
+    "code": "IN-TR",
+    "countryCode": "IN",
+    "name": "Tripura",
+    "type": "State"
+  },
+  {
+    "code": "IN-TS",
+    "countryCode": "IN",
+    "name": "Telangana",
+    "type": "State"
+  },
+  {
+    "code": "IN-UK",
+    "countryCode": "IN",
+    "name": "Uttarakhand",
+    "type": "State"
+  },
+  {
+    "code": "IN-UP",
+    "countryCode": "IN",
+    "name": "Uttar Pradesh",
+    "type": "State"
+  },
+  {
+    "code": "IN-WB",
+    "countryCode": "IN",
+    "name": "West Bengal",
+    "type": "State"
+  }
+]

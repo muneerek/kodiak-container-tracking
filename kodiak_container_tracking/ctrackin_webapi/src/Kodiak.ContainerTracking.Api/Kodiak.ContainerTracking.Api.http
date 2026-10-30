@@ -1,0 +1,86 @@
+@baseUrl = https://localhost:7225
+@accessToken = COPY_ACCESS_TOKEN_FROM_LOGIN
+@refreshToken = COPY_REFRESH_TOKEN_FROM_LOGIN
+@employeeId = 2
+@consigneeId = 3
+@appUserId = 2
+@roleId = 2
+@version = 1
+
+### Sign in after running the super-admin bootstrap command
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{ "userName": "superadmin", "password": "YOUR_CHOSEN_INITIAL_PASSWORD" }
+
+### Create country master
+POST {{baseUrl}}/api/masters/Countries
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{ "code": "IN", "name": "India", "isActive": true }
+
+### Create employee linked to a designation and organization
+POST {{baseUrl}}/api/employees
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{ "firstName": "Aisha", "lastName": "Khan", "dob": "1990-01-01", "emailId": "aisha@example.com", "logo": null, "userStatus": 1, "designationId": 1, "orgId": 1 }
+
+### Create consignee
+POST {{baseUrl}}/api/consignees
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{ "companyName": "Customer Logistics", "lastName": "Contact Name", "emailId": "contact@example.com", "status": 1, "phoneNumber": "+919876543210", "countryId": 1, "address": "24 Port Road", "logo": null }
+
+### Create shipper; choose an existing consignee and business category
+POST {{baseUrl}}/api/shippers
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{ "companyName": "Exporter Logistics", "lastName": "Contact Person", "emailId": "shipper@example.com", "status": 1, "phoneNumber": "+919876543210", "countryId": 1, "address": "36 Dock Road", "businessCategoryId": null, "consigneeId": {{consigneeId}}, "logo": null }
+
+### Create role (roles no longer carry userType)
+POST {{baseUrl}}/api/roles
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{ "code": "OPERATIONS", "roleName": "Operations", "description": "Operations team" }
+
+### Create a normal application user (0) linked to the employee
+POST {{baseUrl}}/api/users
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{ "userName": "aisha.k", "password": "CHOOSE_A_PASSWORD_AT_LEAST_12_CHARACTERS", "userType": 0, "linkedUniqueId": {{employeeId}}, "roleIds": [{{roleId}}], "isActive": true }
+
+### Read account and current ETag
+GET {{baseUrl}}/api/users/{{appUserId}}
+Authorization: Bearer {{accessToken}}
+
+### Update username/active flag using current ETag
+PUT {{baseUrl}}/api/users/{{appUserId}}
+Authorization: Bearer {{accessToken}}
+If-Match: "{{version}}"
+Content-Type: application/json
+
+{ "userName": "aisha.k", "isActive": true }
+
+### Login history
+GET {{baseUrl}}/api/users/{{appUserId}}/logins
+Authorization: Bearer {{accessToken}}
+
+### Token metadata (no hashes returned)
+GET {{baseUrl}}/api/users/{{appUserId}}/tokens
+Authorization: Bearer {{accessToken}}
+
+### Refresh once; save the new refresh token from the response
+POST {{baseUrl}}/api/auth/refresh
+Content-Type: application/json
+
+{ "refreshToken": "{{refreshToken}}" }
+
+### Sign out all sessions for the signed-in account
+POST {{baseUrl}}/api/auth/logout
+Authorization: Bearer {{accessToken}}
